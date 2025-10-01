@@ -1,0 +1,413 @@
+body{
+    background-color:bisque;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+.first-page-left  img
+{
+    margin-left:200px;
+    margin-top:150px;
+    border-radius: 10px;
+}
+.first-page
+{
+    height:100vh;
+    display: inline-flex;
+}
+
+.first-page-right{
+    margin-left:50px;
+    margin-top:200px;
+}
+.second-page
+{
+    height:100vh;
+    display: inline-flex;
+}
+.second-page-left img{
+    margin-left:200px;
+    margin-top:150px;
+    border-radius:10px;
+}
+.second-page-right h1{
+    margin-top:200px;
+    margin-left:300px;
+    font-size:40px;
+    color:rgb(79, 33, 33);
+}
+.second-page-right p{
+    margin-left:30px;
+    margin-top:50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.third-page{
+    display: inline-flex;
+     height:100vh;
+}
+
+.third-page-left
+{
+    margin-top:100px;
+    margin-left:150px;
+}
+.third-page-right{
+    margin-top: 100px;
+    margin-left: 20px;
+   
+}
+.third-page-right img{
+     border-radius: 5px;
+}
+.fourth-page{
+    height: 100vh;
+    display: inline-flex;
+}
+.fourth-page-top-part:hover{
+    transform: scale(1.1);
+   color:rgb(254, 14, 54);
+   font-size: 35px;
+   cursor: pointer;
+}
+
+
+.fourth-page-left{
+    margin-top:60px;
+     margin-left:450px;
+     cursor: pointer;
+     
+}
+.fourth-page-right{
+    margin-top: 60px;
+    margin-left:100px;
+     cursor: pointer;
+}
+
+.fifth-page{
+    height:100vh;
+    display: inline-flex;
+}
+.fifth-page-left{
+    height:470px;
+    width:400px;
+    border: 2px solid black;
+    margin-left:100px;
+    margin-top: 80px;
+    text-align: center;
+     padding-top: 20px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+      border-radius: 10px;
+      font-size: 20px;
+      
+}
+.fifth-page-middle{
+    height:470px;
+   width:400px;
+    border: 2px solid black;
+    margin-left:50px;
+     margin-top: 80px;
+    text-align: center;
+     padding-top: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 100px;
+     border-radius: 10px;
+     
+}
+.fifth-page-right{
+    height:470px;
+    width:400px;
+    border: 2px solid black;
+    margin-left:50px;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+     border-radius: 10px;
+}
+.fifth-page-left img{
+    margin-top:20px;
+    border-radius: 10px;
+   
+}
+.fifth-page-left p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.fifth-page-middle img{
+    margin-top:20px;
+    border-radius: 10px;
+}
+.fifth-page-middle p{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fifth-page-right p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.fifth-page-right img{
+     margin-top:15px;
+    border-radius: 10px;
+}
+.sixth-page{
+    height: 100vh;
+    display: inline-flex;
+}
+.sixth-page-left{
+    width:600px;
+    height:730px;
+    background-color: rgb(58, 15, 15);
+    text-align: center;
+    padding-top: 340px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.sixth-page-right {
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 10px;
+   font-family:'Courier New', Courier, monospace;
+}
+
+.sixth-page-right p{
+    padding-top: 15px;
+   font-weight: 500;
+   font-weight:lighter;
+   
+}
+.seventh-page{
+     height: 100vh;
+     background-color: rgb(242, 216, 242);
+}
+
+.seventh-page-left{
+    display: inline-flex;
+}
+.seventh-page-right{
+    display: inline-flex;
+   
+}
+.seventh-page-right p{
+    padding-left: 250px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.seventh-page-right-part:hover{
+    transform: scale(1.1);
+    color:rgba(255, 0, 136, 0.766);
+}
+
+.seventh-page-down-part:hover{
+    transform: scale(1.1);
+    color:rgb(254, 14, 54);
+}
+
+/* ===== RESPONSIVE LAYER =====
+   Paste this at the very end of your style.css (do NOT change HTML).
+   These rules only apply at the breakpoints below and will not alter
+   the desktop layout outside those widths.
+*/
+
+/* Medium screens: tablets / small laptops */
+@media (max-width: 1024px) {
+  /* Let sections wrap and stop forcing full viewport height */
+  .first-page, .second-page, .third-page,
+  .fourth-page, .fifth-page, .sixth-page, .seventh-page {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    height: auto !important;
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+
+  /* Make images scale down and center them */
+  .first-page-left img,
+  .second-page-left img,
+  .third-page-right img,
+  .fifth-page-left img,
+  .fifth-page-middle img,
+  .fifth-page-right img {
+    display: block;
+    width: 80% !important;
+    max-width: 420px;
+    height: auto !important;
+    margin: 20px auto !important;
+  }
+
+  /* Remove large left margins used for desktop layout */
+  .first-page-right,
+  .first-page-left,
+  .second-page-right,
+  .second-page-left,
+  .third-page-left,
+  .third-page-right,
+  .fourth-page-left,
+  .fourth-page-right,
+  .sixth-page-right {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 12px;
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  /* Projects cards become narrower and centered */
+  .fifth-page-left,
+  .fifth-page-middle,
+  .fifth-page-right {
+    width: 85% !important;
+    margin: 18px auto !important;
+    height: auto !important;
+    padding: 18px;
+  }
+
+  /* Certifications block stacks properly */
+  .sixth-page-left {
+    width: 90% !important;
+    height: auto !important;
+    padding: 40px 20px !important;
+  }
+  .sixth-page-right {
+    width: 90% !important;
+    margin: 16px auto !important;
+    font-size: 15px;
+  }
+
+  /* Footer / contact stack */
+  .seventh-page-left,
+  .seventh-page-right {
+    display: block !important;
+    width: 100% !important;
+    padding: 10px 0;
+  }
+  .seventh-page-right p {
+    padding-left: 0 !important;
+    margin: 8px 0;
+  }
+}
+
+/* Small screens: phones (portrait & small landscape) */
+@media (max-width: 768px) {
+  /* Reduce font sizes if inline styles keep large text */
+  .first-page-right h1,
+  .third-page-left h1,
+  .seventh-page-left-part,
+  .seventh-page-right-part {
+    font-size: 28px !important; /* overrides inline style on small screens */
+    line-height: 1.05 !important;
+    margin: 6px 0 !important;
+  }
+
+  .first-page-right h2,
+  .first-page-right h3,
+  .second-page-right h1,
+  .third-page-left h2 {
+    font-size: 18px !important;
+  }
+
+  .second-page-right p,
+  .third-page-left p,
+  .fifth-page-left p,
+  .fifth-page-middle p,
+  .fifth-page-right p,
+  .sixth-page-right p {
+    font-size: 14px !important;
+    line-height: 1.4;
+    padding: 0 8px;
+  }
+
+  /* Make sure images are fully responsive on narrow screens */
+  .first-page-left img,
+  .second-page-left img,
+  .third-page-right img,
+  .fifth-page-left img,
+  .fifth-page-middle img,
+  .fifth-page-right img {
+    width: 95% !important;
+    max-width: none;
+    margin: 12px auto !important;
+  }
+
+  /* Make skill/project blocks full width */
+  .fourth-page-left,
+  .fourth-page-right,
+  .fifth-page-left,
+  .fifth-page-middle,
+  .fifth-page-right {
+    width: 96% !important;
+    margin: 12px auto !important;
+    text-align: left;
+  }
+
+  /* Remove big paddings/top offsets used for desktop */
+  .first-page,
+  .second-page,
+  .third-page,
+  .fourth-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Make the certifications left panel readable */
+  .sixth-page-left {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    font-size: 18px !important;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 480px) {
+  /* further font reductions */
+  .first-page-right h1,
+  .seventh-page-left-part,
+  .seventh-page-right-part {
+    font-size: 24px !important;
+  }
+  h1 { font-size: 20px !important; }
+  h2 { font-size: 18px !important; }
+  h3, h4, h5 { font-size: 14px !important; }
+  p  { font-size: 13px !important; }
+
+  /* force sections to stack and remove any leftover fixed heights */
+  .first-page, .second-page, .third-page,
+  .fourth-page, .fifth-page, .sixth-page, .seventh-page {
+    display: block !important;
+    height: auto !important;
+  }
+
+  /* ensure project cards are full width and readable */
+  .fifth-page-left,
+  .fifth-page-middle,
+  .fifth-page-right {
+    width: 100% !important;
+    margin: 10px 0 !important;
+    padding: 12px !important;
+  }
+
+  /* remove left padding on contact list */
+  .seventh-page-right p {
+    padding-left: 0 !important;
+  }
+}
+
+/* Utility: if an image still refuses to shrink because of attributes,
+   this will catch most image cases inside your site (applied only on small screens above) */
+@media (max-width: 1024px) {
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
