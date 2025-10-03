@@ -87,76 +87,6 @@ body{
     margin-left:100px;
      cursor: pointer;
 }
-
-.fifth-page{
-    height:100vh;
-    display: inline-flex;
-}
-.fifth-page-left{
-    height:470px;
-    width:400px;
-    border: 2px solid black;
-    margin-left:100px;
-    margin-top: 80px;
-    text-align: center;
-     padding-top: 20px;
-     font-family:Georgia, 'Times New Roman', Times, serif;
-      border-radius: 10px;
-      font-size: 20px;
-      
-}
-.fifth-page-middle{
-    height:470px;
-   width:400px;
-    border: 2px solid black;
-    margin-left:50px;
-     margin-top: 80px;
-    text-align: center;
-     padding-top: 20px;
-     font-family: 'Times New Roman', Times, serif;
-     font-weight: 100px;
-     border-radius: 10px;
-     
-}
-.fifth-page-right{
-    height:470px;
-    width:400px;
-    border: 2px solid black;
-    margin-left:50px;
-    margin-top: 80px;
-    text-align: center;
-    padding-top: 20px;
-    font-family: 'Times New Roman', Times, serif;
-     border-radius: 10px;
-}
-.fifth-page-left img{
-    margin-top:20px;
-    border-radius: 10px;
-   
-}
-.fifth-page-left p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 15px;
-}
-.fifth-page-middle img{
-    margin-top:20px;
-    border-radius: 10px;
-}
-.fifth-page-middle p{
-     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 10px;
-}
-.fifth-page-right p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin-top: 10px;
-}
-.fifth-page-right img{
-     margin-top:15px;
-    border-radius: 10px;
-}
 .sixth-page{
     height: 100vh;
     display: inline-flex;
@@ -210,6 +140,14 @@ body{
 .seventh-page-down-part:hover{
     transform: scale(1.1);
     color:rgb(254, 14, 54);
+}
+.fifth-page{
+     height: 100vh;
+}
+.fifth-page p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-left:50px;
 }
 
 /* ===== RESPONSIVE LAYER =====
