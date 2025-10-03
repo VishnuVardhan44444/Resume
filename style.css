@@ -43,7 +43,7 @@ body{
 }
 .second-page-right p{
     margin-left:30px;
-    margin-top:50px;
+    margin-top:20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .third-page{
@@ -89,9 +89,10 @@ body{
 }
 .sixth-page{
     height: 100vh;
+  
     display: inline-flex;
 }
-.sixth-page-left{
+.sixth-page-left h1{
     width:600px;
     height:730px;
     background-color: rgb(58, 15, 15);
@@ -99,7 +100,7 @@ body{
     padding-top: 340px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 35px;
 }
 .sixth-page-right {
     margin-top: 150px;
